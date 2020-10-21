@@ -1,0 +1,31 @@
+{
+  "name": "emoji-dlp",
+  "version": "1.0.0",
+  "description": "Example of Google DLP api to remove emoji(s) from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybellerose/emoji-dlp.git"
+  },
+  "keywords": [
+    "emoji",
+    "dlp",
+    "Google",
+    "Google DLP",
+    "GCP"
+  ],
+  "author": "yan.bellerose@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ybellerose/emoji-dlp/issues"
+  },
+  "homepage": "https://github.com/ybellerose/emoji-dlp#readme",
+  "dependencies": {
+    "@google-cloud/dlp": "^3.0.4",
+    "fs": "0.0.1-security"
+  }
+}
